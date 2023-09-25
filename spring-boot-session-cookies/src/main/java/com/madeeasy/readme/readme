@@ -1,0 +1,18 @@
+To inspect session IDs in real-time using your browser's developer tools:
+
+#1) Start the Spring Boot application.
+
+#2) Access the URL http://localhost:8080/set-cookie-session in your web browser. This sets the cookie,
+session values, and displays the session ID.
+
+#3) Open your browser's developer tools. You can typically do this by right-clicking on the page and selecting
+"Inspect" or pressing F12 or Ctrl+Shift+I (depending on your browser).
+
+#4) In the developer tools, go to the "Application" or "Storage" tab (the name may vary depending on the browser).
+
+#5) In the "Cookies" section, you will see the cookies set by the application, including the session ID cookie (usually named JSESSIONID).
+
+#6) You can inspect the session ID cookie's value, which will match the session ID displayed by the application.
+
+This real-time inspection demonstrates how Spring Boot associates a session with a session ID, which is stored
+as a cookie on the client-side.
